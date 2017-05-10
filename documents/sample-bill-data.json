@@ -1,0 +1,65 @@
+/* Bills */
+{
+  "2017-SB-0149": {
+    "id": "2017-SB-0149",
+    "description": "State financing and management; other; State financing and management; other; certain forms of energy improvement financing for certain school districts; provide for. Amends sec. 1274a of 1976 PA 451 (MCL 380.1274a).",
+    "sponsors": ["goeff-hansen"],
+    "categories": [
+      {
+        "name": "Appropriations: zero budget",
+        "url": "yadda yadda"
+      },{
+        "name": "Appropriations: school aid",
+        "url": "yadda yadda"
+      },{
+        "name": "School aid: fiscal year appropriations",
+        "url": "yadda yadda"
+      }
+    ],
+    "references": [
+      {
+        "id": "mcl-act-451-of-1976",
+        "url": "http://legislature.mi.gov/doc.aspx?mcl-act-451-of-1976",
+      },{
+        "id": "mcl-380-1274a",
+        "url": "http://legislature.mi.gov/doc.aspx?mcl-380-1274a",
+      }
+    ],
+    "versions": [
+      "billintroduced/house/2017-HB-0149",
+      "billpassed/house/2017-HB-0149"
+    ]
+  }
+}
+
+/* Bill versions */
+{
+  "billintroduced/house/2017-HB-0149": {
+    "sections": [{
+      "id": "mcl-380-1274a",
+      "changes": [{
+        "from": 300,
+        "count": 5,
+        "text": "MUST",
+      },{
+        "from": 400,
+        "count": 5,
+        "text": "",
+      },{
+        "from": 500,
+        "count": 0,
+        "text": "MUST",
+      }]
+    }]
+  }
+}
+
+/* Legislators */
+{ "tbd": "tbd" }
+
+/* Laws */
+{
+  "section-1": {
+    "body": "asdfasd",
+  }
+}

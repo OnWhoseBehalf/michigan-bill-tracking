@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "express": "^4.15.2",
+    "mongodb": "^2.2.26",
+    "throng": "^4.0.0"
+  },
+  "scripts": {
+    "start": "node server/index.js"
+  }
+}
