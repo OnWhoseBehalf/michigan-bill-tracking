@@ -1,12 +1,17 @@
 const express = require('express');
-module.exports = function routes() {
-  const app = express();
+const mongoose = require('mongoose');
+
+module.exports = function routes(app) {
+  mongoose.connect('mongodb://localhost/test');
+  const db = mongoose.connection;
+
+  db.on('error', console.error.bind(console, 'connection error:'));
+  db.once('open', function() {
+    // we're connected!
+    console.log('connected to db');
+  });
 
   app.get('/', function (req, res) {
     res.send('{ "fake": "fake bill data" }');
-  });
-
-  app.listen(3000, function () {
-    console.log('Example app listening on port 3000!');
   });
 }

@@ -1,0 +1,41 @@
+{
+  "links": {
+    "Chapter 1": {
+      "title": "Chapter 1",
+      "link": "mileg.aspx?page=GetObject&objectname=mcl-chap1",
+      "type": "Chapter",
+      "description": "Constitution of the State of Michigan of 1963",
+      "links": {
+        "CONSTITUTION OF MICHIGAN OF 1963": {
+          "title": "CONSTITUTION OF MICHIGAN OF 1963",
+          "link": "mileg.aspx?page=getObject&objectName=mcl-Constitution",
+          "type": "Statute",
+          "description": "STATE CONSTITUTION (Article I § 1 - § 0)",
+          "links": {
+            "CONSTITUTION-I": {
+              "title": "CONSTITUTION-I",
+              "link": "mileg.aspx?page=getObject&objectName=mcl-Constitution-I",
+              "type": "Division",
+              "description": "ARTICLE I DECLARATION OF RIGHTS (Article I § 1...§ 27)",
+              "links": {
+                "Article I § 1": {
+                  "title": "Article I § 1",
+                  "link": "mileg.aspx?page=getObject&objectName=mcl-Article-I-1",
+                  "type": "Section",
+                  "description": "Political power.",
+                  "links": {}
+                },
+                "Article I § 2": {
+                  "title": "Article I § 2",
+                  "link": "mileg.aspx?page=getObject&objectName=mcl-Article-I-2",
+                  "type": "Section",
+                  "description": "Equal protection; discrimination.",
+                  "links": {}
+                },
+                "Article I § 3": {
+                  "title": "Article I § 3",
+                  "link": "mileg.aspx?page=getObject&objectName=mcl-Article-I-3",
+                  "type": "Section",
+                  "description": "Assembly, consultation, instruction, petition.",
+                  "links": {}
+                },
