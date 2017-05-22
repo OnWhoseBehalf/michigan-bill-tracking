@@ -15,13 +15,6 @@ module.exports = function routes(app) {
 
     defineRoutes(modules);
   });
-
-
-  // Tank.create({ size: 'small' }, function (err, small) {
-  //   if (err) return handleError(err);
-  //   // saved!
-  // })
-
 }
 
 const defineRoutes = ({ app }) => {
@@ -50,7 +43,7 @@ const defineRoutes = ({ app }) => {
 
       res.send(JSON.stringify(bill))
     });
-    
+
   });
 };
 
