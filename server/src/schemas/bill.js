@@ -16,9 +16,19 @@ const billSchema = mongoose.Schema({
     description: String,
     // Do we want a seperate schema for these?
     // sponsors: [String],
-    references: [{ type: ObjectId, ref: 'LawSchema' }],
-    categories: [{ type: ObjectId, ref: 'CategorySchema' }],
-    versions: [{ type: ObjectId, ref: 'BillVersionSchema' }],
+    // references: [{ type: ObjectId, ref: 'Law' }], // I dont know if we need this
+    categories: [{ type: ObjectId, ref: 'Category' }],
+    versions: [{
+        sections: [{
+          id: { type: ObjectId, ref: 'Section' },
+          date: Date,
+          changes: [{
+            from: Number,
+            count: Number,
+            text: String,
+          }]
+        }]
+    }],
 });
 
 const categorySchema = mongoose.Schema({
@@ -26,20 +36,5 @@ const categorySchema = mongoose.Schema({
     url: String,
 });
 
-const lawSchema = mongoose.Schema({
-    id: String,
-    url: String,
-});
-
-const billVersionSchema = mongoose.Schema({
-    sections: [{
-      id: String,
-      changes: [{
-        from: Number,
-        count: Number,
-        text: String,
-      }]
-    }]
-});
-
-module.exports.BillSchema = mongoose.model('BillSchema', billSchema);
+module.exports.Bill = mongoose.model('Bill', billSchema);
+module.exports.Category = mongoose.model('Category', categorySchema);
